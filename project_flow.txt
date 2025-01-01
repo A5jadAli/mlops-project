@@ -15,7 +15,11 @@
 > Go back to project >> "get connection string" >> "Drivers" >> {Driver:Python, Version 3.6 or later}
  - copy and save the connection string
 > (Optional) Go and read about setup and pyproject file in "imp_things.txt" file then proceed with further steps
-> create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select python kernel
-> Kaggle data link:
+> create folder "notebook" >> add dataset to notebook folder >> create file "mongoDB_demo.ipynb" >> select python kernel
 > Push your data to the MongoDB database from your python notebook
 > Go to MongoDB Atlas >> Database >> browse collection >> see your data in key value format
+
+---------------------------------Logging, Exception and Notebooks--------------------
+> Write the logger file and test it on demo.py
+> Write the exception file and test it on demo.py
+> EDA and Feature Engg notebook added
