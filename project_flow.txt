@@ -1,0 +1,21 @@
+> Create project template by executing template.py file
+> Write the code on setup.py and pyproject.toml to import local packages
+> Create a venv, activate it and install the requirements from requirements.txt file
+    - "conda create -n mlops python=3.10 -y"
+    - "conda activate mlops"
+    - add required modules to requirements.txt file
+    - do "pip install -r requirements.txt"
+> do "pip list" to ensure you have local packages installed
+
+---------------------------------MongoDB Setup--------------------------------------
+> Sign up on MongoDB Atlas and create a project
+> From "create a cluster" tab, hit "create" then select M0 service keeping other services as default and hit "create deployment"
+> Setup the name(aliasjid009) and password and then create DB user
+> Go to "network access" and add ip address "0.0.0.0/0" so that we can access it from anywhere
+> Go back to project >> "get connection string" >> "Drivers" >> {Driver:Python, Version 3.6 or later}
+ - copy and save the connection string
+> (Optional) Go and read about setup and pyproject file in "imp_things.txt" file then proceed with further steps
+> create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select python kernel
+> Kaggle data link:
+> Push your data to the MongoDB database from your python notebook
+> Go to MongoDB Atlas >> Database >> browse collection >> see your data in key value format
